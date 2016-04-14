@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Carte Bars/BarTableViewController.swift"
+            timestampString = "482352886.251747"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "prepareForSegue(_:sender:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Carte Bars/BarTableViewController.swift"
+            timestampString = "482050681.50118"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "BarTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Carte_Bars.BarTableViewController.__deallocating_deinit"
+                  moduleName = "Carte Bars"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renauddescours/Documents/Appli%20IOS/Carte%20Bars/Carte%20Bars/BarTableViewController.swift"
+                  timestampString = "482050681.504682"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Carte_Bars.BarTableViewController.init (style : __C.UITableViewStyle) -&gt; Carte_Bars.BarTableViewController"
+                  moduleName = "Carte Bars"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renauddescours/Documents/Appli%20IOS/Carte%20Bars/Carte%20Bars/BarTableViewController.swift"
+                  timestampString = "482050681.50496"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Carte_Bars.BarTableViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Carte_Bars.BarTableViewController"
+                  moduleName = "Carte Bars"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renauddescours/Documents/Appli%20IOS/Carte%20Bars/Carte%20Bars/BarTableViewController.swift"
+                  timestampString = "482050681.505467"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Carte_Bars.BarTableViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Carte_Bars.BarTableViewController&gt;"
+                  moduleName = "Carte Bars"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renauddescours/Documents/Appli%20IOS/Carte%20Bars/Carte%20Bars/BarTableViewController.swift"
+                  timestampString = "482050681.505632"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Carte Bars/BarTableViewController.swift"
+            timestampString = "482064229.587338"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "loadBars()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

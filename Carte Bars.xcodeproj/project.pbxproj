@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57016D331CB7F2D60031154F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57016D321CB7F2D60031154F /* AppDelegate.swift */; };
+		57016D351CB7F2D60031154F /* BarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57016D341CB7F2D60031154F /* BarViewController.swift */; };
+		57016D381CB7F2D60031154F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57016D361CB7F2D60031154F /* Main.storyboard */; };
+		57016D3A1CB7F2D60031154F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57016D391CB7F2D60031154F /* Assets.xcassets */; };
+		57016D3D1CB7F2D60031154F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57016D3B1CB7F2D60031154F /* LaunchScreen.storyboard */; };
+		57016D481CB7F2D60031154F /* Carte_BarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57016D471CB7F2D60031154F /* Carte_BarsTests.swift */; };
+		57016D531CB7F45A0031154F /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57016D521CB7F45A0031154F /* Bar.swift */; };
+		57016D541CB7F45A0031154F /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57016D521CB7F45A0031154F /* Bar.swift */; };
+		57016D561CB7FA760031154F /* BarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57016D551CB7FA760031154F /* BarTableViewCell.swift */; };
+		57016D571CB7FA760031154F /* BarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57016D551CB7FA760031154F /* BarTableViewCell.swift */; };
+		57016D591CB7FD440031154F /* BarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57016D581CB7FD440031154F /* BarTableViewController.swift */; };
+		57016D5A1CB7FD440031154F /* BarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57016D581CB7FD440031154F /* BarTableViewController.swift */; };
+		575797CF1CBAA89C00A33854 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575797CE1CBAA89C00A33854 /* MapKit.framework */; };
+		575797DB1CBBA1BB00A33854 /* GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575797DA1CBBA1BB00A33854 /* GetData.swift */; };
+		575797DD1CBBB79F00A33854 /* donnees.json in Resources */ = {isa = PBXBuildFile; fileRef = 575797DC1CBBB79F00A33854 /* donnees.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57016D441CB7F2D60031154F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57016D271CB7F2D60031154F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57016D2E1CB7F2D60031154F;
+			remoteInfo = "Carte Bars";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57016D2F1CB7F2D60031154F /* Carte Bars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Carte Bars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57016D321CB7F2D60031154F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57016D341CB7F2D60031154F /* BarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarViewController.swift; sourceTree = "<group>"; };
+		57016D371CB7F2D60031154F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57016D391CB7F2D60031154F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57016D3C1CB7F2D60031154F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57016D3E1CB7F2D60031154F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57016D431CB7F2D60031154F /* Carte BarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Carte BarsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57016D471CB7F2D60031154F /* Carte_BarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carte_BarsTests.swift; sourceTree = "<group>"; };
+		57016D491CB7F2D60031154F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57016D521CB7F45A0031154F /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		57016D551CB7FA760031154F /* BarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarTableViewCell.swift; sourceTree = "<group>"; };
+		57016D581CB7FD440031154F /* BarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarTableViewController.swift; sourceTree = "<group>"; };
+		575797CE1CBAA89C00A33854 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		575797DA1CBBA1BB00A33854 /* GetData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetData.swift; sourceTree = "<group>"; };
+		575797DC1CBBB79F00A33854 /* donnees.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = donnees.json; path = Assets.xcassets/Data.dataset/donnees.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57016D2C1CB7F2D60031154F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575797CF1CBAA89C00A33854 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57016D401CB7F2D60031154F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57016D261CB7F2D60031154F = {
+			isa = PBXGroup;
+			children = (
+				575797CE1CBAA89C00A33854 /* MapKit.framework */,
+				57016D311CB7F2D60031154F /* Carte Bars */,
+				57016D461CB7F2D60031154F /* Carte BarsTests */,
+				57016D301CB7F2D60031154F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57016D301CB7F2D60031154F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57016D2F1CB7F2D60031154F /* Carte Bars.app */,
+				57016D431CB7F2D60031154F /* Carte BarsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57016D311CB7F2D60031154F /* Carte Bars */ = {
+			isa = PBXGroup;
+			children = (
+				575797DC1CBBB79F00A33854 /* donnees.json */,
+				575797DA1CBBA1BB00A33854 /* GetData.swift */,
+				57016D521CB7F45A0031154F /* Bar.swift */,
+				57016D321CB7F2D60031154F /* AppDelegate.swift */,
+				57016D341CB7F2D60031154F /* BarViewController.swift */,
+				57016D361CB7F2D60031154F /* Main.storyboard */,
+				57016D581CB7FD440031154F /* BarTableViewController.swift */,
+				57016D551CB7FA760031154F /* BarTableViewCell.swift */,
+				57016D391CB7F2D60031154F /* Assets.xcassets */,
+				57016D3B1CB7F2D60031154F /* LaunchScreen.storyboard */,
+				57016D3E1CB7F2D60031154F /* Info.plist */,
+			);
+			path = "Carte Bars";
+			sourceTree = "<group>";
+		};
+		57016D461CB7F2D60031154F /* Carte BarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				57016D471CB7F2D60031154F /* Carte_BarsTests.swift */,
+				57016D491CB7F2D60031154F /* Info.plist */,
+			);
+			path = "Carte BarsTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57016D2E1CB7F2D60031154F /* Carte Bars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57016D4C1CB7F2D60031154F /* Build configuration list for PBXNativeTarget "Carte Bars" */;
+			buildPhases = (
+				57016D2B1CB7F2D60031154F /* Sources */,
+				57016D2C1CB7F2D60031154F /* Frameworks */,
+				57016D2D1CB7F2D60031154F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Carte Bars";
+			productName = "Carte Bars";
+			productReference = 57016D2F1CB7F2D60031154F /* Carte Bars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57016D421CB7F2D60031154F /* Carte BarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57016D4F1CB7F2D60031154F /* Build configuration list for PBXNativeTarget "Carte BarsTests" */;
+			buildPhases = (
+				57016D3F1CB7F2D60031154F /* Sources */,
+				57016D401CB7F2D60031154F /* Frameworks */,
+				57016D411CB7F2D60031154F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57016D451CB7F2D60031154F /* PBXTargetDependency */,
+			);
+			name = "Carte BarsTests";
+			productName = "Carte BarsTests";
+			productReference = 57016D431CB7F2D60031154F /* Carte BarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57016D271CB7F2D60031154F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Renaud Descours";
+				TargetAttributes = {
+					57016D2E1CB7F2D60031154F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					57016D421CB7F2D60031154F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 57016D2E1CB7F2D60031154F;
+					};
+				};
+			};
+			buildConfigurationList = 57016D2A1CB7F2D60031154F /* Build configuration list for PBXProject "Carte Bars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57016D261CB7F2D60031154F;
+			productRefGroup = 57016D301CB7F2D60031154F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57016D2E1CB7F2D60031154F /* Carte Bars */,
+				57016D421CB7F2D60031154F /* Carte BarsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57016D2D1CB7F2D60031154F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575797DD1CBBB79F00A33854 /* donnees.json in Resources */,
+				57016D3D1CB7F2D60031154F /* LaunchScreen.storyboard in Resources */,
+				57016D3A1CB7F2D60031154F /* Assets.xcassets in Resources */,
+				57016D381CB7F2D60031154F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57016D411CB7F2D60031154F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57016D2B1CB7F2D60031154F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57016D351CB7F2D60031154F /* BarViewController.swift in Sources */,
+				57016D561CB7FA760031154F /* BarTableViewCell.swift in Sources */,
+				57016D591CB7FD440031154F /* BarTableViewController.swift in Sources */,
+				57016D531CB7F45A0031154F /* Bar.swift in Sources */,
+				575797DB1CBBA1BB00A33854 /* GetData.swift in Sources */,
+				57016D331CB7F2D60031154F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57016D3F1CB7F2D60031154F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57016D481CB7F2D60031154F /* Carte_BarsTests.swift in Sources */,
+				57016D541CB7F45A0031154F /* Bar.swift in Sources */,
+				57016D571CB7FA760031154F /* BarTableViewCell.swift in Sources */,
+				57016D5A1CB7FD440031154F /* BarTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57016D451CB7F2D60031154F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57016D2E1CB7F2D60031154F /* Carte Bars */;
+			targetProxy = 57016D441CB7F2D60031154F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57016D361CB7F2D60031154F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57016D371CB7F2D60031154F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57016D3B1CB7F2D60031154F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57016D3C1CB7F2D60031154F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57016D4A1CB7F2D60031154F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57016D4B1CB7F2D60031154F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57016D4D1CB7F2D60031154F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Carte Bars/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EntrepriseDescours.Carte-Bars";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57016D4E1CB7F2D60031154F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Carte Bars/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EntrepriseDescours.Carte-Bars";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		57016D501CB7F2D60031154F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Carte BarsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EntrepriseDescours.Carte-BarsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carte Bars.app/Carte Bars";
+			};
+			name = Debug;
+		};
+		57016D511CB7F2D60031154F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Carte BarsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EntrepriseDescours.Carte-BarsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carte Bars.app/Carte Bars";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57016D2A1CB7F2D60031154F /* Build configuration list for PBXProject "Carte Bars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57016D4A1CB7F2D60031154F /* Debug */,
+				57016D4B1CB7F2D60031154F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57016D4C1CB7F2D60031154F /* Build configuration list for PBXNativeTarget "Carte Bars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57016D4D1CB7F2D60031154F /* Debug */,
+				57016D4E1CB7F2D60031154F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57016D4F1CB7F2D60031154F /* Build configuration list for PBXNativeTarget "Carte BarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57016D501CB7F2D60031154F /* Debug */,
+				57016D511CB7F2D60031154F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57016D271CB7F2D60031154F /* Project object */;
+}

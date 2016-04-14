@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fEH-iT-6Kp">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Carte-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="BarViewController" customModule="Carte_Bars" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rpR-KP-KWq">
+                                <rect key="frame" x="20" y="72" width="560" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="t9X-vg-VKB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLF-sy-dfs">
+                                <rect key="frame" x="20" y="506" width="560" height="30"/>
+                                <state key="normal" title="Qu'en pense Google?"/>
+                                <connections>
+                                    <action selector="buttonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="W6w-97-Y1G"/>
+                                </connections>
+                            </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yfN-UY-dWM">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="498"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yfN-UY-dWM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CCY-N3-hru"/>
+                            <constraint firstItem="yfN-UY-dWM" firstAttribute="centerX" secondItem="rpR-KP-KWq" secondAttribute="centerX" id="DSS-1f-kmT"/>
+                            <constraint firstItem="nLF-sy-dfs" firstAttribute="top" secondItem="yfN-UY-dWM" secondAttribute="bottom" constant="8" symbolic="YES" id="Guf-5E-IPC"/>
+                            <constraint firstAttribute="trailing" secondItem="yfN-UY-dWM" secondAttribute="trailing" id="JcU-Uk-W4l"/>
+                            <constraint firstItem="nLF-sy-dfs" firstAttribute="leading" secondItem="rpR-KP-KWq" secondAttribute="leading" id="MEA-xl-AZC"/>
+                            <constraint firstItem="rpR-KP-KWq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="NdG-6n-4LB"/>
+                            <constraint firstItem="rpR-KP-KWq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="YeE-TJ-G8a"/>
+                            <constraint firstItem="yfN-UY-dWM" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gbZ-5y-vow"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nLF-sy-dfs" secondAttribute="bottom" constant="15" id="qXG-D0-RnM"/>
+                            <constraint firstItem="nLF-sy-dfs" firstAttribute="trailing" secondItem="rpR-KP-KWq" secondAttribute="trailing" id="tFD-cA-vry"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Carte" image="imageCarte" id="ycM-vR-G62"/>
+                    <connections>
+                        <outlet property="adressLabel" destination="rpR-KP-KWq" id="ioF-AL-jcZ"/>
+                        <outlet property="mapView" destination="yfN-UY-dWM" id="qz7-s9-0FK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2088" y="-819"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="UiC-qO-qbT">
+            <objects>
+                <tabBarController id="fEH-iT-6Kp" customClass="TabBarController" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Oqp-8v-BZK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="OJP-NL-fKa" kind="relationship" relationship="viewControllers" id="pvr-AX-7NJ"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Llo-o8-D5e"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f3x-9t-Ss1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-689" y="-819"/>
+        </scene>
+        <!--Bars de Paris-->
+        <scene sceneID="Fi0-ME-u12">
+            <objects>
+                <tableViewController id="C4a-xK-K2c" customClass="BarTableViewController" customModule="Carte_Bars" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" id="x5E-8i-fYb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="BarTableViewCell" rowHeight="100" id="3cf-zP-Ixn" customClass="BarTableViewCell" customModule="Carte_Bars" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="600" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3cf-zP-Ixn" id="Awv-CK-GCM">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="99"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yvp-04-FAh">
+                                            <rect key="frame" x="0.0" y="0.0" width="99" height="99"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQb-Lu-M14">
+                                            <rect key="frame" x="107" y="8" width="485" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gqQ-bl-EOz">
+                                            <rect key="frame" x="107" y="37" width="242" height="42"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="adressLabel" destination="gqQ-bl-EOz" id="UJs-p9-HKC"/>
+                                    <outlet property="nameLabel" destination="zQb-Lu-M14" id="8BR-2j-MuS"/>
+                                    <outlet property="photoImageView" destination="Yvp-04-FAh" id="vRP-4C-IN7"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ShowDetail" id="Lvb-Z8-nop"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="C4a-xK-K2c" id="hpV-K2-Nj6"/>
+                            <outlet property="delegate" destination="C4a-xK-K2c" id="SU0-CA-gCv"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Bars de Paris" id="WWa-wv-SZI"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jwx-yP-Qq3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1401" y="-819"/>
+        </scene>
+        <!--Liste-->
+        <scene sceneID="SdF-1M-dJY">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="OJP-NL-fKa" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Liste" image="ImageListe" id="IhY-WD-rKd"/>
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="nse-Wk-xT4">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="PtA-0b-dNP" kind="relationship" relationship="viewControllers" id="Nvc-1K-DQ3"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TAf-f3-Eu7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="35" y="-819"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="gt9-Ae-c3B">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PtA-0b-dNP" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="MDB-sO-HR2"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hBl-lo-8m3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="C4a-xK-K2c" kind="relationship" relationship="rootViewController" id="0hU-cW-Kce"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eLe-Uh-wEJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="721" y="-819"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ImageListe" width="25" height="25"/>
+        <image name="imageCarte" width="25" height="25"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Lvb-Z8-nop"/>
+    </inferredMetricsTieBreakers>
+</document>
